@@ -16,7 +16,9 @@ module.exports = {
   modules: [
     ['@nuxtjs/google-analytics', {
       id: 'UA-140586561-1'
-    }]
+    }],
+    'nuxt-rfg-icon',
+    '@nuxtjs/manifest'
   ],
   /*
   ** Global CSS

@@ -12,6 +12,8 @@
     flex-direction: column;
 }
 
+.flex{display: flex;}
+
 .is-vertical-center {
 	display: flex;
 	align-items: center;
@@ -83,8 +85,26 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', end
 .p-r-lg {
     padding-right: 0rem !important;
 }
+
+.arrow-left, .arrow-right {
+display: none;
 }
- 
+
+.support-link, .scalable-link{
+    margin : 0 auto !important;
+padding: 0 !important;
+}
+
+.mobile-hide{display: none !important;}  
+.subtitle.is-2  {font-size: 2.0rem !important;}
+
+.footwidget{margin-left: 0px !important; text-align: center;}
+.rights{max-width: 229px;
+    padding: 20px; text-align: center; margin: 0 auto;}
+
+}
+ /* end max width 768px */
+
 .divline{
 	width: 50px;
     border-bottom: 6px solid #fff;
@@ -190,6 +210,15 @@ body {
     .is-desktop-nav{display:none !important;}
     .hero.is-fullheight {
         text-align: center;
+    } 
+    .hero-head {
+        text-align: center;
+    }
+    .hero-head img {
+        margin-top: 50px;
+    }
+    .hero-head .left {
+        justify-content: center;
     }
     .hero-body .p-l-lg {padding-left: 0;}
 }
@@ -269,7 +298,7 @@ body {
 .sidebarMenuInner{
     margin:0;
     padding:0;
-    border-top: 1px solid rgba(255, 255, 255, 0.10);
+   
 }
 .sidebarMenuInner li{
     list-style: none;
@@ -314,6 +343,7 @@ input[type=checkbox] {
     right: 15px;
     height: 22px;
     width: 22px;
+    z-index: 99999;
 }
 .spinner {
     transition: all 0.3s;
@@ -372,6 +402,19 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     overflow-y: auto;
  }
 
+ .is-rubyred{
+     background: #f16667;
+     color: #fff;
+     transition: all 0.5s ease;
+ }
+
+ .is-rubyred:hover{
+    background: #c51f28;
+    color: #fff;
+    transition: all 0.5s ease;
+}
+
+
 .hero.is-fullheight .hero-body, .hero.is-fullheight-with-navbar .hero-body {
     align-items: baseline;
 }
@@ -381,16 +424,51 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 .is-green{
     background: #40bfa6;
     color: #fff;
-    border: 1px solid #23d160;
+    border: 1px solid #40bfa6;
+    transition: all 0.5s ease;
 }
 
 .is-green:hover {
     background: #23d160;
     border: 1px solid #23d160;
     color: #fff;
+    transition: all 0.5s ease;
+}
+
+.is-blue{
+    background: #3facef;
+    color: #fff;
+    border: 1px solid #3facef;
+    transition: all 0.5s ease;
+}
+
+.is-blue:hover {
+    background: #059fff;
+    border: 1px solid #059fff;
+    color: #fff;
+    transition: all 0.5s ease;
  
 }
 
+.footerlogo{
+    margin-top: -15px;
+}
+
+.arrow-right {
+    width: 0px;
+    height: 0px;
+    border-top: 60px solid transparent;
+    border-bottom: 60px solid transparent;
+    border-left: 60px solid black;
+}
+
+.arrow-left {
+    width: 0px;
+    height: 0px;
+    border-top: 60px solid transparent;
+    border-bottom: 60px solid transparent;
+    border-right: 60px solid black;
+}
 
 page-enter-active, .page-leave-active {
       transition: all .30s ease-out;
@@ -410,7 +488,11 @@ page-enter-active, .page-leave-active {
     padding: 3rem 0rem;
 }
 
-.hero-head{margin-top: 35px !important;}
+.hero-head{margin-top: 35px !important;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%
+}
 
 .shadow{
     text-shadow:
@@ -418,4 +500,69 @@ page-enter-active, .page-leave-active {
      1px -1px 0 #000,
      -1px 1px 0 #000,
       1px 1px 0 #000;
+}
+
+.pagewidth{
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%
+}
+
+.imgx{
+    border-radius: 6px;
+   margin-top: 80px;
+}
+
+.imgx:before{ 
+background-image: linear-gradient(49deg, rgba(228, 150, 242, 0.40) 1%, #9D6CF4 100%);
+}
+
+.imgx:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 132px;
+    left: -15px;
+    width: 316px;
+    height: 316px;
+    opacity: 0.9;
+    border-radius: 20px;
+    background-image: linear-gradient(147deg, #35c1f3, rgba(143, 255, 220, 0.3));
+    z-index: 1;
+}
+
+/* google iframe*/
+
+iframe body .freebirdFormviewerViewFooterFooterContainer{
+    display: none;
+}
+
+.footerlogo{
+    padding-right: 0px !important;
+}
+
+.service-foot a {color: #000;}
+.service-foot .service-link a{ color: #3273dc}
+
+.scalable-foot a {color: #000;}
+.scalable-foot .scalable-link a{ color: #3273dc}
+
+.support-foot a {color: #000;}
+.support-foot .support-link a{ color: #3273dc}
+.support-foot .service-link a {color: #000;}
+
+.gform1 {
+    overflow: hidden;
+    max-height: 846px !important;
+    max-width: 545px;
+    width: 545px;
+    margin: 0 auto;
+    margin-left: -28px;
+    margin-top: -79px;
+}
+
+.gformwrap{
+    margin: 0 auto;
+    overflow: hidden;
+    width: 488px;
 }

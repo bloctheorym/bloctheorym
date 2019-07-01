@@ -1,30 +1,27 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>BlocTheorym</title>
-		<link rel="stylesheet" 
-        href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.0/css/bulma.min.css">
-		<script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
-        <!--  link rel="stylesheet" href="styles/debug.css" -->
-        <link rel="stylesheet" href="styles/helpers.css">
-        <link rel="stylesheet" href="styles/spacing.css"> 
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-140586561-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+<template>
+  <div><!-- mobile nav -->
+                 <div class="header"> </div>
+                 <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
+                 <label for="openSidebarMenu" class="sidebarIconToggle">
+                   <div class="spinner diagonal part-1"></div>
+                   <div class="spinner horizontal"></div>
+                   <div class="spinner diagonal part-2"></div>
+                 </label>
+                 <div id="sidebarMenu">
+                   <ul class="sidebarMenuInner">
+                     <li> <n-link to="/"><img src="../assets/images/bloctheorym-logo6.png"></n-link></li>
+                     <li><n-link to="/">HOME</n-link></li>
+                     <li><n-link to="about" target="_blank">ABOUT</n-link></li>
+                     <li><n-link to="our-work" target="_blank">OUR WORK</n-link></li>
+                     <li><n-link to="pricing" class="has-text-white">PRICING</n-link></li>
+                     <li><n-link to="contact" class="has-text-white">CONTACT</n-link></li>
+                     
+                     <li><n-link class="button is-small has-text-weight-bold is-black" to="pricing" style="background-color: #6063d4;">Learn More</n-link></li>
+                   </ul>
+                 </div> 
+                <!-- ./end mobile nav -->
+ 
 
-  gtag('config', 'UA-140586561-1');
-</script>
-
-	</head>
-	<body>
-            <script>
-                    document.body.className = 'fade';
-            </script>
 <!-- .hero -->
 <section class="hero is-fullheight">
 
@@ -76,15 +73,8 @@
                 <br /><br />
               <!-- .section - security - system - storage -->
 	  
-            </section>
+           
             <!-- /.section -->
  	<!-- .section -->
-   
-
-     <script>
-            document.addEventListener("DOMContentLoaded", function(e) {
-              document.body.className = '';
-            });
-    </script> 
-                </body>
-            </html>
+    
+    </div>

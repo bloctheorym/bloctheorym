@@ -9,47 +9,46 @@
                  </label>
                  <div id="sidebarMenu">
                    <ul class="sidebarMenuInner">
-                     <li> <n-link to="/"><img src="../assets/images/bloctheorym-logo6.png"></n-link></li>
+                     <li> <n-link to="/"><img src="../assets/images/bloctheorym-logo-blue-o.png" alt="BLOCTHEORYM"></n-link></li>
+                     <li><n-link to="/">HOME</n-link></li>
                      <li><n-link to="about">ABOUT</n-link></li>
                      <li><n-link to="our-work">OUR WORK</n-link></li>
                      <li><n-link to="pricing" class="has-text-white">PRICING</n-link></li>
                      <li><n-link to="contact" class="has-text-white">CONTACT</n-link></li>
                      
-                     <li><n-link class="button is-small has-text-weight-bold is-black" to="pricing" style="background-color: #6063d4;">Learn More</n-link></li>
+                     <li class="hide"><n-link class="button is-small has-text-weight-bold is-black" to="pricing" style="background-color: #6063d4;">Learn More</n-link></li>
                    </ul>
                  </div> 
                 <!-- ./end mobile nav -->
  
  
 
-        <!-- .hero-head -->
-        <div class="hero-head">
-                <figure class="navbar-item-logo image is-marginless mobile-logo">
-                        <n-link to="/"><img src="../assets/images/bloctheorym-logo-blk.png"></n-link>
-                    </figure>
-            <div class="columns is-mobile is-marginless heading has-text-weight-bold">
-                <div class="column left">
-                    <figure class="navbar-item-logo image is-marginless desktop-logo">
-                        <n-link to="/"><img src="../assets/images/bloctheorym-logo-blk.png"></n-link>
-                    </figure>
-                </div>
-                <div class="column center desktop">
-                    <p class="navbar-item has-text-black"><n-link to="about" class="has-text-black">ABOUT</n-link></p>
-                    <p class="navbar-item has-text-black"><n-link to="our-work" class="has-text-black">OUR WORK</n-link></p>
-                    <p class="navbar-item has-text-black"><n-link to="pricing" class="has-text-black">PRICING</n-link></p>
-                    <p class="navbar-item has-text-black hide">RESOURCES</p>
-                    <p class="navbar-item has-text-black hide">DEMO  </p>
-                </div>
-                <div class="column right"> 
-                    <p class="navbar-item has-text-black desktop"><n-link to="log-in" class="has-text-black">LOG IN</n-link>    </p>
-                    <p class="navbar-item has-text-black desktop"><n-link class="button is-small has-text-weight-bold is-black" to="pricing" style="background-color: #6063d4;">Learn More</n-link></p>  
-                    <figure class="navbar-item image has-text-white center">
-                            <i class="fas fa-bars" style="width: 1rem; height: 1rem;"></i>
-                    </figure>
-                </div>
+         <!-- .hero-head -->
+       <div class="hero-head">
+        <div class="columns is-mobile is-marginless heading has-text-weight-bold">
+            <div class="column left">
+                <figure class="navbar-item-logo image is-marginless">
+                    <n-link to="/"><img src="../assets/images/bloctheorym-logo-red-b.png" alt="BLOCTHEORYM"></n-link>
+                </figure>
+            </div>
+            <div class="column center desktop is-desktop-nav">
+                <p class="navbar-item has-text-black"><n-link to="/" class="has-text-black">HOME</n-link> </p>
+                <p class="navbar-item has-text-black"><n-link to="about" class="has-text-black">ABOUT</n-link> </p>
+                <p class="navbar-item has-text-black"><n-link to="our-work" class="has-text-black">OUR WORK</n-link> </p>
+                <p class="navbar-item has-text-black"><n-link to="pricing" class="has-text-black">PRICING</n-link> </p>
+                <p class="navbar-item has-text-black hide">RESOURCES</p>
+                <p class="navbar-item has-text-black hide">DEMO  </p>
+            </div>
+            <div class="column right hide"> 
+                <p class="navbar-item has-text-black desktop"><n-link to="log-in" class="has-text-black hide">LOG IN</n-link>     </p>
+                <p class="navbar-item has-text-black desktop"><n-link class="button is-small has-text-weight-bold is-black hide" to="pricing" style="background-color: #6063d4;">Learn More</n-link></p>  
+                <figure class="navbar-item image has-text-white center hide">
+                        <i class="fas fa-bars" style="width: 1rem; height: 1rem;"></i>
+                </figure>
             </div>
         </div>
-        <!-- /.hero-head -->
+    </div>
+    <!-- /.hero-head -->
         
     
             <!-- .hero-body -->
@@ -116,44 +115,15 @@
                 
                 <!-- ./logos -->
         </section>
-    <!-- footer-->
-    <div style="height: 20px;" class="has-background-black"> </div>
-    <section class="section has-background-black" style="border-top: 3px solid #fff;">
-            <div class="container is-black">
-                <div class="columns">
-                    <div class="column p-md">
-                           <h1 class="subtitle is-1 has-text-white has-text-weight-bold">
-                            BLOC<br/>
-                            THEORYM
-                           </h1>
-                           <div class="has-text-white is-size-5">
-                                BlocTheorym is the world’s #1 enterprise blockchain tech web consulting service. Our purpose: to change lives with technology.
-                               </div>
-                           <div class="has-text-white is-size-6 m-t-md">© 2019 BlocTheorym. All Rights Reserved.</div>
-                    </div> 
-                    <div class="column p-md">
-                       <h2 class="subtitle is-4 has-text-white has-text-weight-bold">LEARN</h2>
-                       <p class="has-text-white is-size-5">
-                            <n-link to="about" class="has-text-white">About Us</n-link><br/> 
-                            <n-link to="contact" class="has-text-white">Become A Partner</n-link><br/> 
-                            <n-link to="contact" class="has-text-white">Careers</n-link></p>
-                    </div>  
-                    <div class="column p-md">
-                       <h2 class="subtitle is-4 has-text-white has-text-weight-bold">LEGAL</h2> 
-                       <p class="has-text-white is-size-5">
-                        <n-link to="terms" class="has-text-white">Terms &amp; Conditions</n-link><br/>
-                        <n-link to="privacy" class="has-text-white">Privacy Policy</n-link><br/>
-                        <n-link to="privacy" class="has-text-white">Cookie Policy</n-link></p>
-                    </div>  
-                    <div class="column p-md">
-                       <h2 class="subtitle is-4 has-text-white has-text-weight-bold">CONTACT US</h2>
-                       <p class="has-text-white is-size-5">
-                            <n-link to="contact" class="has-text-white">Send us a message</n-link><br />
-                            More Questions?<br />
-                            (800) 123-4567</p>
-                    </div>  
-                </div>
-            </div> 
-        </section>  
-  </div>
-  </template>
+   <Footer />
+</div>
+</template>
+<script>
+import Footer from "~/components/Footer.vue";
+
+export default {
+  components: {
+    Footer
+  }
+};
+</script>
