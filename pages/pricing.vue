@@ -16,7 +16,7 @@
                      <li><n-link to="pricing" class="has-text-white">PRICING</n-link></li>
                      <li><n-link to="contact" class="has-text-white">CONTACT</n-link></li>
                      
-                     <li><n-link class="button is-small has-text-weight-bold is-black" to="pricing" style="background-color: #6063d4;">Learn More</n-link></li>
+                     <li><n-link class="button is-small has-text-weight-bold is-black hide" to="pricing" style="background-color: #6063d4;">Learn More</n-link></li>
                    </ul>
                  </div>  
                 <!-- ./end mobile nav -->
@@ -224,7 +224,7 @@
                 <div class="single-spaced">
                         <h1 class="subtitle is-2 center has-text-black">Have more questions?</h1>
                         <br />
-                        <h1 class="subtitle is-4 center has-text-black">Visit our help center or <n-link to="contact">&nbsp;contact us.</n-link>We’re always happy to help.</h1> 
+                        <h1 class="subtitle is-5 center has-text-black" style="display:block; text-align: center;">Visit our help center or <n-link to="contact">&nbsp;contact us.</n-link><br />We’re always happy to help.</h1> 
                         <br />
                         
                 </div>

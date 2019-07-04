@@ -69,7 +69,7 @@
                     <div class="columns">
                         <div class="column">
                             <article> 
-                                <div class="media-content p-xl">
+                                <div class="media-content p-xl btn-ctr">
                                     <div class="content m-t-lg">
                                         <h1 class="title is-size-3">The ultimate web development and enterprise blockchain tech solution</h1>
                                         <p class="is-size-5">
@@ -355,7 +355,7 @@
                     <div class="column">
                         <article> 
                             <div class="media-content p-xl">
-                                <div class="content m-t-xl">
+                                <div class="content m-t-xl btn-ctr">
                                     <h1 class="title is-size-3">Powered by people</h1>
                                     <p class="is-size-5">
                                             BLOCTHEORYM is backed by a team of creative, hard-working and helpful team members all over the world. 
